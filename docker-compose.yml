@@ -1,6 +1,6 @@
 services:
  app:
-   build: .
+   build: ./app
    container_name: otel-metrics-demo
    environment:
      PORT: ${PORT}
@@ -24,3 +24,4 @@ services:
 
 networks:
  otel-metrics-demo-network:
+
